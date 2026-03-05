@@ -38,7 +38,7 @@ link: "https://www.canva.com/design/DAHDCEEzDZw/5Op0_uvHHFXhSII9FkG2Yg/view?utm_
 
 {
 title: "Poster Marhaban Ya Ramadhan",
-category: "poster",
+category: "Poster",
 images: [
 "assets/poster/Marhaban.png"
 ],
