@@ -27,11 +27,12 @@ function renderTemplates(data) {
 
   data.forEach((template, index) => {
 
-    let slidesHTML = template.images.map(img => `
-      <div class="swiper-slide">
-        <img src="${img}" onclick="openModal(${index})">
-      </div>
-    `).join("");
+      let slidesHTML = template.images.map(img => `
+        <div class="swiper-slide">
+          <img src="${img}" onclick="openModal(${index})">
+          <div class="slide-watermark">© Fauzi Template</div>
+        </div>
+      `).join("");
 
     container.innerHTML += `
       <div class="card" data-category="${template.category}">
