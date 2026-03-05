@@ -385,3 +385,42 @@ body::after {
 opacity:0;
 transform:translateY(40px);
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu a{
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+  font-weight:500;
+  opacity:0.8;
+}
+
+.nav-menu a:hover{
+  opacity:1;
+  color:var(--secondary);
+}
+
+.catalog-image{
+position:relative;
+}
+
+.catalog-image img{
+width:100%;
+border-radius:14px;
+}
+
+.watermark{
+position:absolute;
+bottom:10px;
+right:10px;
+font-size:12px;
+padding:4px 8px;
+background:rgba(0,0,0,0.5);
+border-radius:6px;
+color:white;
+}
