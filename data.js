@@ -19,7 +19,7 @@ link: "https://www.canva.com/design/DAHC41nqxsA/QQuwXTt_7gk00Gmgfialdw/view?utm_
 },
 
 {
-title: "PPT Business-pitch",
+title: "PPT Business Pitch",
 category: "PPT",
 images: [
 "assets/ppt/business-patch/1.png",
@@ -34,13 +34,15 @@ images: [
 "assets/ppt/business-patch/10.png"
 ],
 link: "https://www.canva.com/design/DAHDCEEzDZw/5Op0_uvHHFXhSII9FkG2Yg/view?utm_content=DAHDCEEzDZw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
+},
+
+{
+title: "Poster Marhaban Ya Ramadhan",
+category: "Poster",
+images: [
+"assets/poster/Marhaban.png"
+],
+link: "https://www.canva.com/design/DAHDEYLBDD4/u96LYbmByczvxK8tZgVX2A/view?utm_content=DAHDEYLBDD4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
 }
-  {
-  title: "Poster Marhaban Ya Ramadhan",
-  category: "poster",
-  images:[ "assets/poster/Marhaban.png"]
-  link: "https://www.canva.com/design/DAHDEYLBDD4/u96LYbmByczvxK8tZgVX2A/view?utm_content=DAHDEYLBDD4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview"
-}
+
 ];
-
-
