@@ -17,106 +17,93 @@
 
 <body>
 
-  <!-- ================= LOADER ================= -->
-  <div id="loader">
-    <div class="loader-content">
-      <h1>Canva Template Hub</h1>
-      <p>Loading Experience...</p>
+<!-- ================= LOADER ================= -->
+<div id="loader">
+  <div class="loader-content">
+    <h1>Canva Template Hub</h1>
+    <p>Loading Experience...</p>
+  </div>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header>
+
+  <!-- NAV -->
+  <div class="nav">
+    <h1 class="logo">Canva<span>Hub</span></h1>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Professional Canva Template Marketplace</h2>
+    <p>
+      Discover high-quality presentation, ebook, and poster templates.
+      Preview slides instantly and use them directly in Canva.
+    </p>
+
+    <!-- SEARCH & FILTER -->
+    <div class="controls">
+
+      <!-- SEARCH -->
+      <div class="search-wrapper">
+        <input type="text" id="search" placeholder="Search template...">
+      </div>
+
+      <!-- FILTER -->
+      <div class="custom-select">
+        <select id="filter">
+          <option value="all">All Categories</option>
+          <option value="PPT">PPT</option>
+          <option value="Ebook">E-Book</option>
+          <option value="Poster">Poster</option>
+        </select>
+      </div>
+
     </div>
   </div>
 
+</header>
 
-  <!-- ================= HEADER ================= -->
-  <header>
-
-    <!-- NAV -->
-    <div class="nav">
-      <h1 class="logo">Canva<span>Hub</span></h1>
-    </div>
-
-    <!-- HERO -->
-    <div class="hero">
-      <h2>Professional Canva Template Marketplace</h2>
-      <p>
-        Discover high-quality presentation, ebook, and poster templates.
-        Preview slides instantly and use them directly in Canva.
-      </p>
-
-      <!-- SEARCH & FILTER -->
-      <div class="controls">
-
-        <!-- SEARCH -->
-        <div class="search-wrapper">
-          <input type="text" id="search" placeholder="Search template...">
-        </div>
-
-        <!-- FILTER -->
-        <div class="custom-select">
-          <select id="filter">
-            <option value="all">All Categories</option>
-            <option value="PPT">PPT</option>
-            <option value="Ebook">E-Book</option>
-            <option value="Poster">Poster</option>
-          </select>
-        </div>
-
-      </div>
-    </div>
-
-  </header>
-
-
-  <!-- ================= STATS ================= -->
-  <section class="stats">
-    <div class="stat-item">
-      <span class="counter" data-target="120">0</span>
-      <p>Templates</p>
-    </div>
-
-    <div class="stat-item">
-      <span class="counter" data-target="500">0</span>
-      <p>Active Users</p>
-    </div>
-
-    <div class="stat-item">
-      <span class="counter" data-target="6">0</span>
-      <p>Categories</p>
-    </div>
-  </section>
-
-
-  <!-- ================= TEMPLATE GRID ================= -->
-  <section id="templateContainer" class="grid"></section>
-
-
-  <!-- ================= FULLSCREEN MODAL ================= -->
-  <div id="previewModal" class="modal">
-    <span class="closeModal">&times;</span>
-
-    <div class="modal-content">
-      <div class="swiper modalSwiper">
-        <div class="swiper-wrapper" id="modalSlides"></div>
-
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </div>
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="stat-item">
+    <span class="counter" data-target="120">0</span>
+    <p>Templates</p>
   </div>
 
-    <div class="swiper-slide">
+  <div class="stat-item">
+    <span class="counter" data-target="500">0</span>
+    <p>Active Users</p>
+  </div>
 
-<img src="assets/ppt/cyber-security/1.png">
+  <div class="stat-item">
+    <span class="counter" data-target="6">0</span>
+    <p>Categories</p>
+  </div>
+</section>
 
-<div class="slide-watermark">
-© Fauzi Template
+<!-- ================= TEMPLATE GRID ================= -->
+<section id="templateContainer" class="grid"></section>
+
+<!-- ================= FULLSCREEN MODAL ================= -->
+<div id="previewModal" class="modal">
+  <span class="closeModal">&times;</span>
+
+  <div class="modal-content">
+    <div class="swiper modalSwiper">
+      <div class="swiper-wrapper" id="modalSlides"></div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
 </div>
 
-</div>
-  <!-- ================= SCRIPTS ================= -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+<!-- ================= SCRIPTS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

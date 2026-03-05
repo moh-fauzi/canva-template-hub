@@ -443,3 +443,18 @@ pointer-events:none;
 .swiper-slide{
 position:relative;
 }
+
+.swiper-slide{
+position:relative;
+}
+
+.slide-watermark{
+position:absolute;
+bottom:8px;
+right:10px;
+font-size:11px;
+background:rgba(0,0,0,0.6);
+padding:4px 8px;
+border-radius:6px;
+color:#fff;
+}
