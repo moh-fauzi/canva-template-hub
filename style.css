@@ -62,10 +62,14 @@ body::after {
 
 /* ================= NAV ================= */
 
-.nav {
-  padding: 25px 60px;
+.nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:25px 60px;
+max-width:1300px;
+margin:auto;
 }
-
 .logo {
   font-size: 24px;
   font-weight: 700;
@@ -463,10 +467,9 @@ color:#fff;
 }
 
 .logo img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: auto;
 }
-
 .logo h1{
     font-size: 24px;
     font-weight: bold;
