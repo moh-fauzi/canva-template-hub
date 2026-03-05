@@ -58,41 +58,56 @@ from{transform:translate(0,0);}
 to{transform:translate(-60px,-60px);}
 }
 
-/* NAVBAR */
+/* ===== NAVBAR ===== */
 
 .nav{
 display:flex;
 align-items:center;
-justify-content:space-between;
 padding:25px 60px;
 max-width:1300px;
 margin:auto;
-backdrop-filter:blur(12px);
-background:rgba(10,10,25,0.35);
-border-bottom:1px solid rgba(255,255,255,0.05);
+
+/* transparan */
+background: transparent;
+border:none;
+backdrop-filter:none;
 }
+
+/* ===== LOGO ===== */
 
 .logo{
 display:flex;
 align-items:center;
-gap:12px;
+gap:14px;
 }
 
 .logo img{
-width:45px;
+width:55px;
 height:auto;
 }
 
-.logo h1{
-font-size:22px;
-font-weight:700;
-margin:0;
+/* ===== TEXT ===== */
+
+.logo-text{
+display:flex;
+flex-direction:column;
 }
 
-.logo span{
+.logo-text h1{
+font-size:26px;
+margin:0;
+font-weight:700;
+}
+
+.logo-text span{
 color:var(--primary);
 }
 
+.logo-text p{
+margin:0;
+font-size:13px;
+opacity:0.7;
+}
 /* HERO */
 
 .hero{
