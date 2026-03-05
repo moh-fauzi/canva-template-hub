@@ -19,7 +19,7 @@ link: "https://www.canva.com/design/DAHC41nqxsA/QQuwXTt_7gk00Gmgfialdw/view?utm_
 },
 
 {
-title: "PPT Business-patch",
+title: "PPT Business-pitch",
 category: "PPT",
 images: [
 "assets/ppt/business-patch/1.png",
@@ -37,3 +37,4 @@ link: "https://www.canva.com/design/DAHDCEEzDZw/5Op0_uvHHFXhSII9FkG2Yg/view?utm_
 }
 
 ];
+
