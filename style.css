@@ -346,3 +346,33 @@ color:#fff;
 opacity:0;
 transform:translateY(40px);
 }
+/* ===== LOGO AREA ===== */
+
+.logo-area{
+display:flex;
+flex-direction:column;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:14px;
+}
+
+.logo img{
+width:55px;
+height:auto;
+}
+
+.logo h1{
+font-size:26px;
+font-weight:700;
+margin:0;
+}
+
+.logo-desc{
+font-size:13px;
+opacity:0.7;
+margin-top:2px;
+margin-left:70px;
+}
