@@ -474,3 +474,31 @@ color:#fff;
     font-size: 24px;
     font-weight: bold;
 }
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo h1{
+font-size:22px;
+font-weight:700;
+margin:0;
+}
+
+.nav-menu{
+display:flex;
+align-items:center;
+gap:25px;
+}
+
+.nav-menu a{
+font-size:14px;
+}
+
+.nav{
+backdrop-filter: blur(12px);
+background: rgba(10,10,25,0.35);
+border-bottom:1px solid rgba(255,255,255,0.05);
+}
